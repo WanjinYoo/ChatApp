@@ -4,7 +4,6 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 import TextField from '@material-ui/core/TextField';
-import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -34,6 +33,7 @@ const useStyles = makeStyles({
   }
 });
 
+
 const Chat = () => {
   const classes = useStyles();
 
@@ -60,7 +60,7 @@ const Chat = () => {
                         <ListItemIcon>
                             <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />
                         </ListItemIcon>
-                        <ListItemText primary="Remy Sharp">Remy Sharp</ListItemText>
+                        <ListItemText primary="A person">A person</ListItemText>
                         <ListItemText secondary="online" align="right"></ListItemText>
                     </ListItem>
                 </List>
